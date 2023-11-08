@@ -14,7 +14,7 @@ Day 1:
 - Images
 - Input Content (Forms)
 
-Day 2:
+Day 2: CSS
 - Syntax & Injection
 - Selectors & Specificity
 - Properties
@@ -23,3 +23,13 @@ Day 2:
 - Debugging
 - Units (px, %, em, rem)
 - Positions & TOP RIGHT BOTTOM LEFT
+
+Day 3: JavaScript
+- Basics
+- Notation
+- DOM
+- Function
+- If, else, else if
+- switch case
+- arrays
+- navigator-, window-, string-, math-, Methodes
