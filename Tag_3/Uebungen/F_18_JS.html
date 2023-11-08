@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funktionen - Brutto|Netto Rechner</title>
+</head>
+<body>
+    <h1>Bruttorechner</h1>
+
+    <script>
+        var preis_netto = 125.00;
+        
+
+        function bruttoRechner(netto) {
+            var brutto = netto * 1.19;
+            return brutto;
+        }
+
+        var preis_brutto = bruttoRechner(preis_netto);
+        document.write(preis_brutto + " Euro");
+    </script>
+
+</body>
+</html>

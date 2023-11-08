@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch-Case</title>
+</head>
+<body>
+    <script>
+
+        var numberOne = 50
+        // switch case
+        switch (numberOne) {
+            case 1:
+                document.write("Zahl ist 1");
+                break; // Ist wichtig, da sonst alles nach dem ersten eingetretenen Fall ausgeführt wird
+            case 10: 
+                document.write("Zahl ist 10");
+                break;
+            case 40:
+                document.write("Zahl ist 40");
+                break;
+            default:
+                document.write("Zahl hat einen unerwarteten Wert");
+                // Beim default benötigen wir kein break, da danach nichts mehr kommt
+        }
+
+    </script>   
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Farbspiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Farbspiel</h1>
+    <p>Kannst du die richtige Farbe erraten?</p>
+    <div class="color-grid">
+        <div class="color-tile" style="background-color: red" onclick="checkColor('red')"></div>
+        <div class="color-tile" style="background-color: blue" onclick="checkColor('blue')"></div>
+        <div class="color-tile" style="background-color: green" onclick="checkColor('green')"></div>
+    </div>
+    <p id="message"></p>
+</body>
+<script src="script.js"></script>
+</html>
